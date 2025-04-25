@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testimonios Navegables</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section class="testimonials">
+    <div class="testimonial-grid">
+
+      <!-- Testimonios normales -->
+      <div class="testimonial dark">
+        <p>He estado resolviendo todas las ideas de proyectos en roadmap.sh y estoy sorprendido de lo lejos que he llegado desde donde comencé.<br><br><strong>¡Altamente recomendado!</strong></p>
+        <div class="author">
+          <img src="./1.jpg" alt="Foto de usuario">
+          <div>
+            <div class="name">Artem Jones</div>
+            <div class="role">Junior Frontend Developer</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial dark">
+        <p>Desde que comencé mi carrera en 2021, solo he seguido un recurso, roadmap.sh. Me ayudó a pasar de no tener trabajo a cambiar la trayectoria financiera de mi familia.</p>
+        <div class="author">
+          <img src="./2.png" alt="Foto de usuario">
+          <div>
+            <div class="name">Artem Jones</div>
+            <div class="role">Junior Frontend Developer</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial big dark">
+        <div class="rating">★★★★★</div>
+        <p>Recomiendo roadmap.sh a todos los internos o desarrolladores junior. Es una gran forma de mejorar tus habilidades y hacer crecer tu carrera.</p>
+        <div class="author">
+          <img src="./3.png" alt="Foto de Jackie Mackle">
+          <div>
+            <div class="name">Jackie Mackle</div>
+            <div class="role">Engineering Manager</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonio Navegable -->
+      <div class="testimonial light with-nav" id="navegable-testimonio">
+        <p id="testimonio-texto">
+          roadmap.sh es un recurso increíble. Lo descubrí en mis días universitarios en 2018. ¡Hoy ha impactado a millones de vidas!
+        </p>
+        <div class="author centered" id="testimonio-autor">
+          <img src="./2.png" alt="Foto de Artem Jones">
+          <div class="name">Artem Jones</div>
+        </div>
+        <div class="navigation">
+          <button id="prev-btn">&lt;</button>
+          <button id="next-btn">&gt;</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
